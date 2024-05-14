@@ -66,44 +66,110 @@ const about = {
 // --- 🛡️ Experience Section ---
 const experiences = [
     {
-        position: "Web Dev Intern",
+        position: "Senior Technical Specialist",
         company: {
-            name: "WolfTech",
-            link: "https://tools.wolftech.ncsu.edu/support/index.php/WolfTech_Information_Technology"
+            name: "Coforge",
+            link: ""
         },
-        duration: "Aug 2022 - Present",
+        duration: "Nov 2022 - Present",
         bulletPoints: [
-            "Resolved issues and developed new tools within several university web applications (email automation, research discovery, educational resources, scheduling tools, and text-generative AI news sharing).",
-            "Achieved 100+ github code contributions as an intern on the team.",
-            "Currently rebuilding and modernizing the university digital sign manager and system."
+            "Member of SharePoint CoE, MUFG",
+            "Developed and Maintained SPFx Applications with Power Automate",
+            "Developed PowerShell Scripts to automate Report generation for MUFG Management."
         ],
         hashtags: [
-            "Laravel",
-            "PHP",
-            "MySQL",
-            "JS",
-            "Vue.js",
-            "HTML",
-            "Tailwind"
+            "SharePoint Online",
+            "SPFx",
+            "PowerApps",
+            "Power Automate",
+            "PowerShell"
         ]
     },
     {
-        position: "Math Tutor",
+        position: "Manager",
         company: {
-            name: "Mathnasium",
-            link: "https://www.mathnasium.com"
+            name: "Genpact",
+            link: ""
         },
-        duration: "Jan 2022 - Aug 2022",
+        duration: "Dec 2019 - Oct 2022",
         bulletPoints: [
-            "Taught math to students elementary through high school covering topics from basic algebra to college-level calculus.",
-            "Directed the trajectory of the student's learning plan and math topic evaluation to facilitate success in their school math class.",
-            "Requested by many students and parents for routine weekly tutoring sessions in a system with a standard random weekly rotation."
+            "Member of SharePoint CoE, Pfizer",
+            "Implemented SPFx reusable solutions for Web-part using React and Extensions based on client requirements.",
+            "Implemented Dashboards, Reports using SPFx React Implemented Custom Solutions using 3rd party JS libraries"
         ],
         hashtags: [
-            "Calc 1-2",
-            "Algebra 1-3",
-            "Discrete Math",
-            "Statistics"
+            "SharePoint Online",
+            "SPFx",
+            "PowerApps",
+            "Power Automate",
+            "Sharepoint Online Classic Sites",
+            "HTML",
+            "CSS",
+            "Javascript"
+        ]
+    },
+    {
+        position: "Consultant B2",
+        company: {
+            name: "Capgemini",
+            link: ""
+        },
+        duration: "Apr 2018 - Dec 2019",
+        bulletPoints: [
+            "Member of SharePoint CoE, StoraEnso",
+            "Implemented SPFx web part to meet reusability of the component and explored on Termstore, UserProfifile, Search Queries, Pagination and DOM Manipulation.",
+            "Implemented the MS Graph API to get information from the OneDrive."
+        ],
+        hashtags: [
+            "SharePoint Online",
+            "SPFx",
+            "PowerApps",
+            "Power Automate",
+            "Sharepoint Online Classic Sites",
+            "HTML",
+            "CSS",
+            "Javascript"
+        ]
+    },
+    {
+        position: "Programmer Analyst",
+        company: {
+            name: "Cognizant Technologies Solutions",
+            link: ""
+        },
+        duration: "Jan 2016 - Apr 2018",
+        bulletPoints: [
+            "I have been a SharePoint Developer and designer with maintainer for SharePoint 2013 Sites.",
+            "I was involved in bug fixing and minor development, designer work.",
+            "Script Injection in Sharepoint 2013 Sites to achieve requirements."
+        ],
+        hashtags: [
+            "SharePoint 2013",
+            "SharePoint Hosted Apps",
+            "Script Injection",
+            "HTML",
+            "CSS",
+            "Javascript"
+        ]
+    },
+    {
+        position: "Technical Associate",
+        company: {
+            name: "Unisys Corp.",
+            link: ""
+        },
+        duration: "Nov 2013 - Jan 2016",
+        bulletPoints: [
+            "Unisys Portfolio Center is a Unisys Internal Project for showcasing the necessary Information to Global Marketing and Employees.",
+            "Sharepoint Custom development using Visual Studio, Sharepoint UI development using Sharepoint Designer",
+            "Project has provided opportunity to learn the insights of SharePoint in all aspects.",
+        ],
+        hashtags: [
+            "SharePoint 2010",
+            "Script Injection",
+            "HTML",
+            "CSS",
+            "Javascript"
         ]
     }
 ]
@@ -119,7 +185,7 @@ const works = [
             {
                 label: "",
                 type: "git",
-                url: "https://github.com/feifyKike/TrackYourSubsDemo/"
+                url: "https://github.com/sharathnaik/TrackYourSubsDemo/"
             },
             {
                 label: "",
@@ -154,7 +220,7 @@ const works = [
             {
                 label: "",
                 type: "git",
-                url: "https://github.com/feifyKike/sudokusolver"
+                url: "https://github.com/sharathnaik/sudokusolver"
             },
             {
                 label: "",
@@ -174,7 +240,7 @@ const works = [
             {
                 label: "",
                 type: "git",
-                url: "https://github.com/feifyKike/JS-API-Quiz"
+                url: "https://github.com/sharathnaik/JS-API-Quiz"
             },
             {
                 label: "",
@@ -199,7 +265,7 @@ const works = [
             {
                 label: "",
                 type: "external",
-                url: "https://github.com/feifyKike/Covid-Cases-Visual"
+                url: "https://github.com/sharathnaik/Covid-Cases-Visual"
             }
         ],
         imageLink: "images/covid_pic.png",
@@ -215,14 +281,13 @@ const contact = {
     externalLink: {
         shortTitle: "Get in Touch",
         note: [
-            "Currently seeking web and software development positions/internships in the RTP area for summer 2024.",
-            "Also looking to build a team for projects & startup ideas or just make professional connections."
+            "Currently seeking Architect position in the SharePoint Domain.",
         ], // paragraph breaks will be entered after each item,
         link: {
-            email: "", // email takes precedance
-            other: "https://forms.gle/W3MswTKsPWMxEbn58"
+            email: "nayak.sharath81@gmail.com", // email takes precedance
+            other: ""
         },
-        responseTimeMessage: "...and I'll resopnd within the next 24hrs"
+        responseTimeMessage: ""//"...and I'll resopnd within the next 24hrs"
     },
     formEmbedLink: "" // inclusion of this link will take precedance
 }

@@ -43,13 +43,12 @@
 
 						<ExperienceView :content="portfolio.experiences" :transitions="portfolio.transitions" />
 
-						<WorkView :content="portfolio.works" :transitions="portfolio.transitions" />
+						<!--<WorkView :content="portfolio.works" :transitions="portfolio.transitions" />-->
 
 						<ContactView :content="portfolio.contact" :transitions="portfolio.transitions" />
 
 						<footer class="hidden text-center md:block mb-5">
-							<p>🚀 Designed & Created by <a href="https://maximshelepov.com" class="hover:text-link-color" target="_blank">Maxim Shelepov</a></p>
-							<a href="https://github.com/feifyKike/webdev_portfolio" class="hover:text-link-color" target="_blank">Code available on Github 👾</a>
+							<p>🚀 Designed & Created by Sharath M</p>
 						</footer>
 					</div>
 				</div>
@@ -57,8 +56,8 @@
 					<p :class="['fixed bottom-2 right-10 origin-top-right rotate-90 transition-all motion-reduce:transition-none duration-500', showLanding ? 'translate-y-0 opacity-1' : '-translate-y-4 opacity-0']">📍 Based in {{ portfolio.greeting.basedLocation }}</p>
 				</div>
 				<footer class="block text-center text-sm md:hidden order-last mb-5">
-					<p>🚀 Designed & Created by <a href="https://maximshelepov.com" class="hover:text-link-color" target="_blank">Maxim Shelepov</a></p>
-					<a href="https://github.com/feifyKike/webdev_portfolio" class="hover:text-link-color" target="_blank">Code available on Github 👾</a>
+					<p>🚀 Designed & Created by <a href="https://maximshelepov.com" class="hover:text-link-color" target="_blank">Sharath M</a></p>
+					<a href="https://github.com/sharathnaik/webdev_portfolio" class="hover:text-link-color" target="_blank">Code available on Github 👾</a>
 				</footer>
 			</div>
 		</div>
@@ -73,7 +72,7 @@ import Navbar from '../components/Navbar.vue'
 import LandingView from './LandingView.vue'
 import AboutView from './AboutView.vue'
 import ExperienceView from './ExperienceView.vue'
-import WorkView from './WorkView.vue'
+//import WorkView from './WorkView.vue'
 import ContactView from './ContactView.vue'
 import SplashView from './SplashView.vue'
 
