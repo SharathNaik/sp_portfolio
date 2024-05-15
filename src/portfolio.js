@@ -24,7 +24,7 @@ const greeting = {
     name: "Sharath M",
     message: "I'm a SharePoint Developer with 10 years of experiance.",
     basedLocation: "Bengaluru, IN",
-    resumeLink: "", // recommended: google drive file share link (change to "anyone on the internet can view")
+    resumeLink: "https://drive.google.com/file/d/1wJAYaw2d3i0sPILqqqjFlHY30j95AC66/view?usp=sharing", // recommended: google drive file share link (change to "anyone on the internet can view")
     logo: {
         link: "images/initials.png", // use relative path from  parent directory -> ex: images/image.ext
         custom: true // takes precedence over image logo and allows for custom HTML logo (./components/Navbar.vue)
@@ -281,7 +281,7 @@ const contact = {
     externalLink: {
         shortTitle: "Get in Touch",
         note: [
-            "Currently seeking Architect position in the SharePoint Domain.",
+            "Currently seeking Solution Architect position in the SharePoint Domain.",
         ], // paragraph breaks will be entered after each item,
         link: {
             email: "nayak.sharath81@gmail.com", // email takes precedance
