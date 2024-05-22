@@ -4,7 +4,8 @@
 // Should be inputted as a hex value. Use https://g.co/kgs/XCcs7T for choosing colors with hex.
 const colors = {
     buttonColor: "#4305ba",
-    LinkHighlightColor: "#4305ba"
+    LinkHighlightColor: "#4305ba",
+    hashColor: "##2bf0ab"
 }
 
 // Transitions
@@ -22,7 +23,7 @@ const splashScreen = true // recommended: for best behavior after refresh
 const greeting = {
     intro: "Hello 👋, my name is",
     name: "Sharath M",
-    message: "I'm a SharePoint Developer with 10 years of experiance.",
+    message: "I'm a SharePoint Solution Architect with 10 years of experiance.",
     basedLocation: "Bengaluru, IN",
     resumeLink: "https://drive.google.com/file/d/1wJAYaw2d3i0sPILqqqjFlHY30j95AC66/view?usp=sharing", // recommended: google drive file share link (change to "anyone on the internet can view")
     logo: {
@@ -43,7 +44,7 @@ const socialMediaLinks = {
 // --- 😎 About Section ---
 const about = {
     autobiography: [
-        "My name is Sharath M and I'm a Senior Technical Specialist at Coforge, Bengaluru with 10 years of Experiance.As a SharePoint Developer explored SharePoint 2010, SharePoint 2013, SharePoint Online.",
+        "My name is Sharath M and I'm a Senior Technical Specialist at Coforge, Bengaluru with 10 years of Experiance.As a SharePoint Expert explored SharePoint 2010, SharePoint 2013, SharePoint Online.",
         ""
     ], // Separated items are paragraphs
     techStack: [
@@ -69,7 +70,7 @@ const experiences = [
         position: "Senior Technical Specialist",
         company: {
             name: "Coforge",
-            link: ""
+            link: "https://www.coforge.com/"
         },
         duration: "Nov 2022 - Present",
         bulletPoints: [
@@ -89,7 +90,7 @@ const experiences = [
         position: "Manager",
         company: {
             name: "Genpact",
-            link: ""
+            link: "https://www.genpact.com/"
         },
         duration: "Dec 2019 - Oct 2022",
         bulletPoints: [
@@ -112,7 +113,7 @@ const experiences = [
         position: "Consultant B2",
         company: {
             name: "Capgemini",
-            link: ""
+            link: "https://www.capgemini.com/"
         },
         duration: "Apr 2018 - Dec 2019",
         bulletPoints: [
@@ -135,7 +136,7 @@ const experiences = [
         position: "Programmer Analyst",
         company: {
             name: "Cognizant Technologies Solutions",
-            link: ""
+            link: "https://www.cognizant.com/in/en"
         },
         duration: "Jan 2016 - Apr 2018",
         bulletPoints: [
@@ -156,7 +157,7 @@ const experiences = [
         position: "Technical Associate",
         company: {
             name: "Unisys Corp.",
-            link: ""
+            link: "https://www.unisys.com/"
         },
         duration: "Nov 2013 - Jan 2016",
         bulletPoints: [
@@ -174,97 +175,65 @@ const experiences = [
     }
 ]
 
-// --- 💻 Work Section ---
+// --- 💻 Work Section (Projects) ---
 const works = [
     {
-        projectName: "MGS, MUFG",
-        yearCompleted: "2024",
-        description: "",
+        projectName: "Regional Document Management System",
+        yearCompleted: "11/2022 to 04/2024",
+        role: "Solution Architect",
+        client: "MGS, MUFG",
+        clientLink: "https://www.bk.mufg.jp/global/",
+        description: "MUFG Bank in Asia Pacific, one of Japan's leading financial companies. As part of MGS, i was involved in Solution Development on SharePoint front. i've extensively used SPFx to develop and maintain applications built to cater regional document management system. Delivered PoC's related to Product Catelogue using Power Platform. Generated Reports on Regional Document Management System beased on criteria defined by business using PowerShell.",
         techStack: "SPFx, Power Automate, PowerShell, PowerApps",
-        links: [
-            {
-                label: "",
-                type: "external",
-                url: ""
-            }
-        ],
-        imageLink: "",
         alignLeft: false
     },
     {
-        projectName: "Dynamic Portfolio Website",
-        yearCompleted: "2021",
-        description: "Developed a personal portfolio website with Python backend using the Django web development framework. Incorporated HTML, CSS, and JavaScript to construct the frontend of the website.",
-        techStack: "Django, Python, HTML, CSS, JS",
-        links: [
-            {
-                label: "",
-                type: "external",
-                url: "https://maximshelepov.com"
-            }
-        ],
-        imageLink: "images/portfolio_pic.png",
+        projectName: "Pfizer Digital Solutions, Pfizer",
+        yearCompleted: "12/2019 to 11/2022",
+        client: "Pfizer",
+        clientLink: "https://www.pfizer.com/",
+        role: "Tech Lead",
+        description: "Pfizer is one of the world's leading pharmaceutical companies, founded more than 170 years ago. In Pfizer, I was involved in Whole life cycle of Requirement Gathering, Application Development, Demo and Project Closure. I've provided custom solutions using SPFx Webparts, SPFx Extensions, SharePoint Classic Development with Third-Party Libraries along with Power Platform.",
+        techStack: "SPFx, Power Automate, PowerApps, Sharepoint Classic Development using AngularJS, Third Party JS Libraries",
         alignLeft: true
     },
     {
-        projectName: "Sudoku Game & Solver",
-        yearCompleted: "2021",
-        description: "Built a Sudoku game UI incorporating the Java Swing library. Randomly generates a Sudoku puzzle and solves itself using the backtracking algorithm written in Java..",
-        techStack: "Java",
-        links: [
-            {
-                label: "",
-                type: "git",
-                url: "https://github.com/sharathnaik/sudokusolver"
-            },
-            {
-                label: "",
-                type: "external",
-                url: "https://youtu.be/lXOjOrjf5hU"
-            }
-        ],
-        imageLink: "images/sudoku_pic.png",
+        projectName: "WeShare Custom Migration, StoraEnso",
+        yearCompleted: "01/2019 to 12/2019",
+        client: "StoraEnso",
+        clientLink: "https://www.storaenso.com/",
+        role: "Senior SharePoint Developer",
+        description: "Part of the global bioeconomy, Stora Enso is a leading provider of renewable products in packaging, biomaterials, and wooden construction. I was involved in SharePoint 2013 Re-structure to SharePoint Online using SPFx and Power Platform.",
+        techStack: "SharePoint Online, SPFx, SharePoint Hosted Apps developed using KnockoutJS, Script Injection",
         alignLeft: false
     },
     {
-        projectName: "Trivia Quiz",
-        yearCompleted: "2020",
-        description: "Interested in taking a fun and interactive pop quiz? Using the HTML, CSS3, JavaScript, and jQuery I created a quiz that can be taken on numerous topics of your choice and gives instant feedback. The entire project is built mostly on JavaScript and all the functionality and events are controlled through functions such as ReadDisplay and Validate. The HTML portion of the online quiz only serves as the skeleton and template for elements that will be created via JS.",
-        techStack: "JS, HTML, CSS",
-        links: [
-            {
-                label: "",
-                type: "git",
-                url: "https://github.com/sharathnaik/JS-API-Quiz"
-            },
-            {
-                label: "",
-                type: "external",
-                url: "https://codepen.io/Max_the_coder/pen/yLXZOYL" //https://codepen.io/Max_the_coder/pen/yLXZOYL
-            }
-        ],
-        imageLink: "images/trivia_pic.png",
+        projectName: "WeShare Intranet, StoraEnso",
+        yearCompleted: "05/2018 to 12/2018",
+        client: "StoraEnso",
+        clientLink: "https://www.storaenso.com/",
+        role: "Senior SharePoint Developer",
+        description: "Part of the global bioeconomy, Stora Enso is a leading provider of renewable products in packaging, biomaterials, and wooden construction. I have been a part of SharePoint Classic Site development using Third Party libraries. SharePoint Hosted App Development.",
+        techStack: "SharePoint Online, SPFx, SharePoint Hosted Apps, Script Injection",
         alignLeft: true
     },
     {
-        projectName: "Coronavirus Report",
-        yearCompleted: "2020",
-        description: "Created a program that displays up-to-date COVID-19 data and shows results in a graphical / visual representation. Coded with the Python programming language and libraries such as Matplotlib, Requests, and CSV.",
-        techStack: "Python",
-        links: [
-            {
-                label: "",
-                type: "git",
-                url: "https://youtu.be/gw5kb1QKVp0"
-            },
-            {
-                label: "",
-                type: "external",
-                url: "https://github.com/sharathnaik/Covid-Cases-Visual"
-            }
-        ],
-        imageLink: "images/covid_pic.png",
+        projectName: "Merck",
+        yearCompleted: "01/2016 to 04/2018",
+        client: "Merck",
+        clientLink: "https://www.merckgroup.com/en",
+        role: "SharePoint Developer",
+        description: "Merck KGaA, Darmstadt, Germany, a leading science and technology company, operates across Healthcare, Life Science and Electronics. I was part of SharePoint Team working on SharePoint 2013 Page and Master Page Customizations. got an opportunity to work on SharePoint Hosted App and modern OOTB Customizations.",
+        techStack: "SharePoint 2013, Master Page Customization, Page Customization, SharePoint Hosted Apps, Script Injection",
         alignLeft: false
+    },
+    {
+        projectName: "Unisys Global Portal",
+        yearCompleted: "11/2013 to 01/2016",
+        role: "SharePoint Developer",
+        description: "Unisys is a global technology solutions company for digital workplace, cloud, application, infrastructure, enterprise computing and business process. As a New Joinee, I have learn't and developed SharePoint Customizations to meet client expectation.",
+        techStack: "SharePoint 2010, Visual Webparts, Event Receivers, Workflow, SharePoint Designer,Master Page Customization, Page Customization, Script Injection",
+        alignLeft: true
     }
 ]
 
