@@ -4,7 +4,7 @@
             <p>{{ project.yearCompleted }}</p>
             <h3 class="text-xl font-extrabold pb-2">{{ project.projectName }}</h3>
             <p class="text-slate-500 dark:text-slate-300">{{ project.description }}</p>
-            <p class="text-slate-600">{{ project.techStack }}</p>
+            <p class="text-cyan-600">{{ project.techStack }}</p>
         </div>
     </div>
 </template>

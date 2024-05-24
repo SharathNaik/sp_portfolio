@@ -10,6 +10,11 @@
 					<ul class="md:fixed md:bottom-0 mb-7 flex items-center space-x-8 md:flex-col md:space-y-4 md:space-x-0">
 						<li v-show="githubLink" :class="['transition-all motion-reduce:transition-none duration-500', showLanding ? 'translate-y-0 opacity-1' : '-translate-y-4 opacity-0']">
 							<a :href="githubLink" target="_blank">
+								<font-awesome-icon icon="fa-solid fa-medal" class="h-8 w-8 md:h-12 md:w-12 text-black transition ease-out hover:-translate-y-1 motion-reduce:hover:translate-y-0 duration-300 dark:text-slate-300"></font-awesome-icon>
+							</a>
+						</li>
+						<li v-show="githubLink" :class="['transition-all motion-reduce:transition-none duration-500', showLanding ? 'translate-y-0 opacity-1' : '-translate-y-4 opacity-0']">
+							<a :href="githubLink" target="_blank">
 								<font-awesome-icon icon="fa-brands fa-github" class="h-8 w-8 md:h-12 md:w-12 text-black transition ease-out hover:-translate-y-1 motion-reduce:hover:translate-y-0 duration-300 dark:text-slate-300"></font-awesome-icon>
 							</a>
 						</li>
@@ -53,7 +58,17 @@
 					</div>
 				</div>
 				<div class="hidden col-span-1 md:flex flex-initial relative order-2 text-center md:order-none">
-					<p :class="['fixed bottom-2 right-10 origin-top-right rotate-90 transition-all motion-reduce:transition-none duration-500', showLanding ? 'translate-y-0 opacity-1' : '-translate-y-4 opacity-0']">📍 Based in {{ portfolio.greeting.basedLocation }}</p>
+					<div :class="['fixed bottom-4 right-10 origin-top-right transition-all motion-reduce:transition-none duration-500', showLanding ? 'translate-y-0 opacity-1' : '-translate-y-4 opacity-0']">
+						<button v-if="darkModeActive" class="block" @click="toggleDark">
+							<MoonIcon class="h-7 w-7 text-slate-300 hover:text-button-color"/>
+						</button>
+						<button v-else @click="toggleDark" class="block">
+							<SunIcon class="h-7 w-7 text-slate-400 hover:text-button-color"/>
+						</button>
+					</div>
+				</div>
+				<div class="hidden col-span-1 md:flex flex-initial relative order-3 text-center md:order-none">
+					<p :class="['fixed bottom-12 right-10 origin-top-right rotate-90 transition-all motion-reduce:transition-none duration-500', showLanding ? 'translate-y-0 opacity-1' : '-translate-y-4 opacity-0']">📍 Based in {{ portfolio.greeting.basedLocation }}</p>
 				</div>
 				<footer class="block text-center text-sm md:hidden order-last mb-5">
 					<p>🚀 Modified by Sharath M</p>
@@ -64,6 +79,7 @@
 </template>
 
 <script setup>
+import { Bars2Icon, XMarkIcon, MoonIcon, SunIcon } from '@heroicons/vue/24/solid'
 import { onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
 

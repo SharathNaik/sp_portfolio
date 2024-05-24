@@ -6,6 +6,9 @@ import { library } from '@fortawesome/fontawesome-svg-core'
     Check out the official fontawesome page for all the available icons: https://fontawesome.com/search?o=r&m=free&f=brands
 */
 /* import icons first */
+
+import { faMedal } from "@fortawesome/free-solid-svg-icons";
+
 import {
     faGithub,
     faLinkedin,
@@ -14,8 +17,10 @@ import {
     faXTwitter
 } from '@fortawesome/free-brands-svg-icons'
 
+
 /* add icons to the library */
 library.add(
+    faMedal,
     faGithub,
     faLinkedin,
     faMedium,

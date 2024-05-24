@@ -47,14 +47,14 @@
                             <button class="block py-2 px-6 bg-transparent border border-button-color shadow-sm shadow-button-color text-button-color transition ease-in-out hover:bg-button-color hover:text-white hover:dark:text-slate-300 focus:bg-button-color focus:text-white active:bg-button-color active:text-white duration-300">Resume</button>
                         </a>
                     </li>
-                    <li :class="['transition-all motion-reduce:transition-none duration-500 delay-[250ms]', showTransition ? 'translate-y-0 opacity-1' : '-translate-y-4 opacity-0']">
+                    <!--<li :class="['transition-all motion-reduce:transition-none duration-500 delay-[250ms]', showTransition ? 'translate-y-0 opacity-1' : '-translate-y-4 opacity-0']">
                         <button v-if="darkModeActive" class="block py-2" @click="$emit('toggle-dark')">
                             <MoonIcon class="h-7 w-7 text-slate-300 hover:text-button-color"/>
                         </button>
                         <button v-else @click="$emit('toggle-dark')" class="block py-2">
                             <SunIcon class="h-7 w-7 text-slate-400 hover:text-button-color"/>
                         </button>
-                    </li>
+                    </li>-->
                 </ul>
             </div>
         </div>
@@ -80,7 +80,7 @@
                             <button class="block w-full text-center bg-button-color py-2 px-6 mt-5 shadow-sm shadow-button-color focus:bg-button-color focus:text-white active:bg-button-color active:text-white text-white">Resume</button>
                         </a>
                     </li>
-                    <li>
+                    <!--<li>
                         <div class="block w-full text-center py-2 mt-5">
                             <button v-if="darkModeActive" class="block py-2" @click="$emit('toggle-dark')">
                                 <MoonIcon class="h-7 w-7 text-slate-300 hover:text-button-color"/>
@@ -89,7 +89,7 @@
                                 <SunIcon class="h-7 w-7 text-slate-400 hover:text-button-color"/>
                             </button>
                         </div>
-                    </li>
+                    </li>-->
                 </ul>
             </div>
         </NavTransition>

@@ -5,7 +5,7 @@
         <ul class="list-['\1F449'] pl-6 pt-4 text-slate-500 dark:text-slate-300">
             <li v-for="bullet in experience.bulletPoints" class="pl-2 pb-2">{{ bullet }}</li>
         </ul>
-        <div class="text-slate-600 pt-4 flex flex-wrap mt-auto">
+        <div class="text-cyan-600 pt-4 flex flex-wrap mt-auto">
             <p v-for="hashtag in experience.hashtags" class="pr-4 last:pr-0">#{{ hashtag }}</p>
         </div>
     </div>
