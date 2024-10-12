@@ -8,8 +8,8 @@
 			<div class="flex flex-col md:grid md:grid-cols-6 min-h-full">
 				<div class="col-span-1 flex-initial relative mx-auto md:mx-0 order-2 md:order-none">
 					<ul class="md:fixed md:bottom-0 mb-7 flex items-center space-x-8 md:flex-col md:space-y-4 md:space-x-0">
-						<li v-show="githubLink" :class="['transition-all motion-reduce:transition-none duration-500', showLanding ? 'translate-y-0 opacity-1' : '-translate-y-4 opacity-0']">
-							<a :href="githubLink" target="_blank">
+						<li v-show="medalLink" :class="['transition-all motion-reduce:transition-none duration-500', showLanding ? 'translate-y-0 opacity-1' : '-translate-y-4 opacity-0']">
+							<a :href="medalLink" target="_blank">
 								<font-awesome-icon icon="fa-solid fa-medal" class="h-8 w-8 md:h-12 md:w-12 text-black transition ease-out hover:-translate-y-1 motion-reduce:hover:translate-y-0 duration-300 dark:text-slate-300"></font-awesome-icon>
 							</a>
 						</li>
@@ -50,6 +50,8 @@
 
 						<WorkView :content="portfolio.works" :transitions="portfolio.transitions" />
 
+						<AchieveView :content="portfolio.achievements" :transitions="portfolio.transitions" />
+
 						<ContactView :content="portfolio.contact" :transitions="portfolio.transitions" />
 
 						<footer class="hidden text-center md:block mb-5">
@@ -87,6 +89,7 @@ import Navbar from '../components/Navbar.vue'
 import LandingView from './LandingView.vue'
 import AboutView from './AboutView.vue'
 import ExperienceView from './ExperienceView.vue'
+import AchieveView from './AchieveView.vue'
 import WorkView from './WorkView.vue'
 import ContactView from './ContactView.vue'
 import SplashView from './SplashView.vue'
@@ -108,7 +111,7 @@ onMounted(() => {
 // Social Media Links
 const githubLink = portfolio.socialMediaLinks.github
 const linkedinLink = portfolio.socialMediaLinks.linkedin
-const mediumLink = portfolio.socialMediaLinks.medium
+const medalLink = portfolio.socialMediaLinks.medal
 const stackoverflowLink = portfolio.socialMediaLinks.stackoverflow
 const xTwitterLink = portfolio.socialMediaLinks.xtwitter;
 

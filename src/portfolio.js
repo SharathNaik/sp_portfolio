@@ -38,6 +38,7 @@ const socialMediaLinks = {
     linkedin: "https://www.linkedin.com/in/sharath-m-62a2444b",
     medium: "",
     stackoverflow: "",
+    medal:"",
     xtwitter: "https://twitter.com/sharu"
 } // to add any additional social media links check out the README.md or src/icons.js file
 
@@ -175,6 +176,109 @@ const experiences = [
     }
 ]
 
+// --- 🛡️ Achieve Section ---
+const achievements = [
+    {
+        type: "Certification",
+        title: "Microsoft Certified: Power Platform Fundamentals",
+        examCode: "PL 900",
+        issuedBy: "Microsoft",
+        issueDate: "June 2021",
+        credentialLink: "https://www.credly.com/badges/f6261a18-6231-4a1a-9e85-6ba58060c215?source=linked_in_profile",
+        hashtags: [
+            "Powerapps",
+            "Power Automate"
+        ]
+    },
+    {
+        type: "Applied Skills",
+        title: "Create and manage model-driven apps with Power Apps and Dataverse",
+        examCode: "",
+        issuedBy: "Microsoft",
+        issueDate: "October 2024",
+        credentialLink: "https://learn.microsoft.com/api/credentials/share/en-us/SharathM-2163/53B9E8252771D554?sharingId=F9C12AC0400A0B6F",
+        hashtags: [
+            "Model Driven Apps",
+            "Canvas Apps",
+            "Dataverse"
+        ]
+    },
+    {
+        type: "Applied Skills",
+        title: "Create and manage canvas apps with Power Apps",
+        examCode: "",
+        issuedBy: "Microsoft",
+        issueDate: "October 2024",
+        credentialLink: "https://learn.microsoft.com/api/credentials/share/en-us/SharathM-2163/FCD56AB488C53E4?sharingId=F9C12AC0400A0B6F",
+        hashtags: [
+            "Canvas Apps",
+            "PowerFx"
+        ]
+    },
+    {
+        type: "Applied Skills",
+        title: "Create and manage automated processes by using Power Automate",
+        examCode: "",
+        issuedBy: "Microsoft",
+        issueDate: "October 2024",
+        credentialLink: "https://learn.microsoft.com/api/credentials/share/en-us/SharathM-2163/3173A141048E803E?sharingId=F9C12AC0400A0B6F",
+        hashtags: [
+            "Power Automate"
+        ]
+    },
+    {
+        type: "Certificate",
+        title: "Lean Six Sigma Yellow Belt",
+        examCode: "",
+        issuedBy: "Genpact",
+        issueDate: "June 2020",
+        credentialLink: "",
+        hashtags: [
+            "Define",
+            "Measure",
+            "Analyze",
+            "Control"
+        ]
+    },
+    {
+        type: "Certificate",
+        title: "Lean Six Sigma Green Belt",
+        examCode: "",
+        issuedBy: "Genpact",
+        issueDate: "August 2021",
+        credentialLink: "",
+        hashtags: [
+            "Kaizen",
+            "Improve Existing Process",
+            "1 FTE"
+        ]
+    },
+    {
+        type: "Certification",
+        title: "Programming in HTML5 with JavaScript and CSS3",
+        examCode: "MS 70-480",
+        issuedBy: "Microsoft",
+        issueDate: "April 2013",
+        credentialLink: "",
+        hashtags: [
+            "HTML5",
+            "JavaScript",
+            "CSS"
+        ]
+    },
+    {
+        type: "Certification",
+        title: "Microsoft Certified Professional",
+        examCode: "",
+        issuedBy: "Microsoft",
+        issueDate: "April 2013",
+        credentialLink: "",
+        hashtags: [
+            "MS 70-480"
+        ]
+    }
+]
+
 // --- 💻 Work Section (Projects) ---
 const works = [
     {
@@ -264,6 +368,7 @@ export default {
     socialMediaLinks,
     about,
     experiences,
+    achievements,
     works,
     archiveLink,
     contact
