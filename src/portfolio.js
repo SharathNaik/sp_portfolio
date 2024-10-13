@@ -23,7 +23,7 @@ const splashScreen = true // recommended: for best behavior after refresh
 const greeting = {
     intro: "Hello 👋, my name is",
     name: "Sharath M",
-    message: "I'm a SharePoint Solution Architect with 10 years of experiance.",
+    message: "I'm a SharePoint Solution Architect with 11 years of experiance.",
     basedLocation: "Bengaluru, IN",
     resumeLink: "https://drive.google.com/file/d/1wJAYaw2d3i0sPILqqqjFlHY30j95AC66/view?usp=sharing", // recommended: google drive file share link (change to "anyone on the internet can view")
     logo: {
@@ -45,20 +45,24 @@ const socialMediaLinks = {
 // --- 😎 About Section ---
 const about = {
     autobiography: [
-        "My name is Sharath M and I'm a Senior Technical Specialist at Coforge, Bengaluru with 10 years of Experiance.As a SharePoint Expert explored SharePoint 2010, SharePoint 2013, SharePoint Online.",
+        "My name is Sharath M and I'm a Senior Technical Specialist at Coforge, Bengaluru with 11 years of Experiance.As a SharePoint Expert explored SharePoint 2010, SharePoint 2013, SharePoint Online.",
         ""
     ], // Separated items are paragraphs
     techStack: [
         "SharePoint Online",
         "SPFx",
+        "ReactJS",
         "NodeJS",
         "Power Apps",
         "Power Automate",
+        "Power Pages",
+        "Dataverse",
         "SharePoint 2013",
+        "SharePoint 2010",
         "HTML",
         "CSS",
         "JavaScript",
-        "SharePoint 2010",
+        "Jquery"
     ],
     photo1Link: "",//"images/portrait1.jpeg",
     photo2Link: "",//"images/portrait2.jpeg",
@@ -77,12 +81,14 @@ const experiences = [
         bulletPoints: [
             "Member of SharePoint CoE, MUFG",
             "Developed and Maintained SPFx Applications with Power Automate",
+            "Develped PowerApps Canvas, Model-Driven and Power Pages",
             "Developed PowerShell Scripts to automate Report generation for MUFG Management."
         ],
         hashtags: [
             "SharePoint Online",
             "SPFx",
             "PowerApps",
+            "Dataverse",
             "Power Automate",
             "PowerShell"
         ]
@@ -97,13 +103,15 @@ const experiences = [
         bulletPoints: [
             "Member of SharePoint CoE, Pfizer",
             "Implemented SPFx reusable solutions for Web-part using React and Extensions based on client requirements.",
-            "Implemented Dashboards, Reports using SPFx React Implemented Custom Solutions using 3rd party JS libraries"
+            "Implemented Dashboards, Reports using SPFx React Implemented Custom Solutions using 3rd party JS libraries",
+            "Developed Production ready apps using PowerApps, Power Automate."
         ],
         hashtags: [
             "SharePoint Online",
             "SPFx",
             "PowerApps",
             "Power Automate",
+            "Dataverse",
             "Sharepoint Online Classic Sites",
             "HTML",
             "CSS",
@@ -120,7 +128,8 @@ const experiences = [
         bulletPoints: [
             "Member of SharePoint CoE, StoraEnso",
             "Implemented SPFx web part to meet reusability of the component and explored on Termstore, UserProfifile, Search Queries, Pagination and DOM Manipulation.",
-            "Implemented the MS Graph API to get information from the OneDrive."
+            "Implemented the MS Graph API to get information from the OneDrive.",
+            "Explored PowerApps Applications to cater business needs."
         ],
         hashtags: [
             "SharePoint Online",
@@ -179,18 +188,6 @@ const experiences = [
 // --- 🛡️ Achieve Section ---
 const achievements = [
     {
-        type: "Certification",
-        title: "Microsoft Certified: Power Platform Fundamentals",
-        examCode: "PL 900",
-        issuedBy: "Microsoft",
-        issueDate: "June 2021",
-        credentialLink: "https://www.credly.com/badges/f6261a18-6231-4a1a-9e85-6ba58060c215?source=linked_in_profile",
-        hashtags: [
-            "Powerapps",
-            "Power Automate"
-        ]
-    },
-    {
         type: "Applied Skills",
         title: "Create and manage model-driven apps with Power Apps and Dataverse",
         examCode: "",
@@ -228,6 +225,31 @@ const achievements = [
     },
     {
         type: "Certificate",
+        title: "Lean Six Sigma Green Belt",
+        examCode: "",
+        issuedBy: "Genpact",
+        issueDate: "August 2021",
+        credentialLink: "",
+        hashtags: [
+            "Kaizen",
+            "Improve Existing Process",
+            "1 FTE"
+        ]
+    },
+    {
+        type: "Certification",
+        title: "Microsoft Certified: Power Platform Fundamentals",
+        examCode: "PL 900",
+        issuedBy: "Microsoft",
+        issueDate: "June 2021",
+        credentialLink: "https://www.credly.com/badges/f6261a18-6231-4a1a-9e85-6ba58060c215?source=linked_in_profile",
+        hashtags: [
+            "Powerapps",
+            "Power Automate"
+        ]
+    },
+    {
+        type: "Certificate",
         title: "Lean Six Sigma Yellow Belt",
         examCode: "",
         issuedBy: "Genpact",
@@ -241,16 +263,14 @@ const achievements = [
         ]
     },
     {
-        type: "Certificate",
-        title: "Lean Six Sigma Green Belt",
+        type: "Certification",
+        title: "Microsoft Certified Professional",
         examCode: "",
-        issuedBy: "Genpact",
-        issueDate: "August 2021",
+        issuedBy: "Microsoft",
+        issueDate: "April 2013",
         credentialLink: "",
         hashtags: [
-            "Kaizen",
-            "Improve Existing Process",
-            "1 FTE"
+            "MS 70-480"
         ]
     },
     {
@@ -265,17 +285,6 @@ const achievements = [
             "JavaScript",
             "CSS"
         ]
-    },
-    {
-        type: "Certification",
-        title: "Microsoft Certified Professional",
-        examCode: "",
-        issuedBy: "Microsoft",
-        issueDate: "April 2013",
-        credentialLink: "",
-        hashtags: [
-            "MS 70-480"
-        ]
     }
 ]
 
@@ -288,7 +297,7 @@ const works = [
         client: "MGS, MUFG",
         clientLink: "https://www.bk.mufg.jp/global/",
         description: "MUFG Bank in Asia Pacific, one of Japan's leading financial companies. As part of MGS, i was involved in Solution Development on SharePoint front. i've extensively used SPFx to develop and maintain applications built to cater regional document management system. Delivered PoC's related to Product Catelogue using Power Platform. Generated Reports on Regional Document Management System beased on criteria defined by business using PowerShell.",
-        techStack: "SPFx, Power Automate, PowerShell, PowerApps",
+        techStack: "SPFx, Power Automate, PowerShell, PowerApps, Power Pages, Dataverse",
         alignLeft: false
     },
     {
