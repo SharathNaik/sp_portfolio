@@ -23,7 +23,7 @@ const splashScreen = true // recommended: for best behavior after refresh
 const greeting = {
     intro: "Hello 👋, my name is",
     name: "Sharath M",
-    message: "I'm a SharePoint Solution Architect with 11 years of experiance.",
+    message: "I'm a M365 Solution Architect with 11 years of experiance.",
     basedLocation: "Bengaluru, IN",
     resumeLink: "https://drive.google.com/file/d/1wJAYaw2d3i0sPILqqqjFlHY30j95AC66/view?usp=sharing", // recommended: google drive file share link (change to "anyone on the internet can view")
     logo: {
@@ -45,18 +45,18 @@ const socialMediaLinks = {
 // --- 😎 About Section ---
 const about = {
     autobiography: [
-        "My name is Sharath M and I'm a Senior Technical Specialist at Coforge, Bengaluru with 11 years of Experiance.As a SharePoint Expert explored SharePoint 2010, SharePoint 2013, SharePoint Online.",
+        "My name is Sharath M and I'm a Senior Business Execution Consultant at Wellsfargo, Bengaluru with 11 years of Experiance.As a M365 Expert explored SharePoint 2010, SharePoint 2013, SharePoint Online, Power Platform.",
         ""
     ], // Separated items are paragraphs
     techStack: [
         "SharePoint Online",
-        "SPFx",
-        "ReactJS",
-        "NodeJS",
         "Power Apps",
         "Power Automate",
         "Power Pages",
         "Dataverse",
+        "SPFx",
+        "ReactJS",
+        "NodeJS",
         "SharePoint 2013",
         "SharePoint 2010",
         "HTML",
@@ -72,12 +72,29 @@ const about = {
 // --- 🛡️ Experience Section ---
 const experiences = [
     {
+        position: "Senior Business Execution Consultant",
+        company: {
+            name: "Wellsfargo",
+            link: "https://www.wellsfargo.com/"
+        },
+        duration: "Oct 2024 - Present",
+        bulletPoints: [
+            "Implemented PowerApps with Process Automation using Power Automate"
+        ],
+        hashtags: [
+            "SharePoint Online",
+            "PowerApps",
+            "Dataverse",
+            "Power Automate",
+        ]
+    },
+    {
         position: "Senior Technical Specialist",
         company: {
             name: "Coforge",
             link: "https://www.coforge.com/"
         },
-        duration: "Nov 2022 - Present",
+        duration: "Nov 2022 - Oct 2024",
         bulletPoints: [
             "Member of SharePoint CoE, MUFG",
             "Developed and Maintained SPFx Applications with Power Automate",
@@ -290,6 +307,16 @@ const achievements = [
 
 // --- 💻 Work Section (Projects) ---
 const works = [
+    {
+        projectName: "Business Process Improvement",
+        yearCompleted: "10/2024 to Present",
+        role: "Business Process Execution Consultant",
+        client: "",
+        clientLink: "",
+        description: "Developed and Implemented Business Process Applications with Process Optiomization.",
+        techStack: "PowerApps, Power Automate, Power Pages, Dataverse",
+        alignLeft: true
+    },
     {
         projectName: "Regional Document Management System",
         yearCompleted: "11/2022 to 04/2024",
