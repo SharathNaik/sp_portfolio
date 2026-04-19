@@ -19,11 +19,13 @@ const transitions = {
 // Splash Screen
 const splashScreen = true // recommended: for best behavior after refresh
 
+const experienceYears = new Date().getFullYear() - 2014
+
 // --- 👋 Greeting Section ---
 const greeting = {
     intro: "Hello 👋, my name is",
     name: "Sharath M",
-    message: "I'm a M365 Solution Architect with 11 years of experiance.",
+    message: `I'm a M365 Solution Architect with ${experienceYears}+ years of experiance.`,
     basedLocation: "Bengaluru, IN",
     resumeLink: "https://drive.google.com/file/d/1wJAYaw2d3i0sPILqqqjFlHY30j95AC66/view?usp=sharing", // recommended: google drive file share link (change to "anyone on the internet can view")
     logo: {
@@ -45,7 +47,7 @@ const socialMediaLinks = {
 // --- 😎 About Section ---
 const about = {
     autobiography: [
-        "My name is Sharath M and I'm a Senior Business Execution Consultant at Wellsfargo, Bengaluru with 11 years of Experiance.As a M365 Expert explored SharePoint 2010, SharePoint 2013, SharePoint Online, Power Platform.",
+        `My name is Sharath M and I'm a Senior Business Execution Consultant at Wellsfargo, Bengaluru with ${experienceYears}+ years of Experiance.As a M365 Expert explored SharePoint 2010, SharePoint 2013, SharePoint Online, Power Platform.`,
         ""
     ], // Separated items are paragraphs
     techStack: [
